@@ -2,7 +2,7 @@ import React from 'react'
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
+// import { SiGmail } from "react-icons/si";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 
@@ -26,7 +26,7 @@ const Footer = () => {
   <FaWhatsapp className='border border-gray-400 w-8 h-6 lg:w-12 lg:h-10 rounded  shadow-md shadow-orange-400 hover:bg-gradient-to-r from-orange-400 to-pink-600'/>
   </a>
   <a href={`mailto:${email}`}>
-  <SiGmail className='border border-gray-400 w-8 h-6 lg:w-12 lg:h-10 rounded  shadow-md shadow-orange-400 hover:bg-gradient-to-r from-orange-400 to-pink-600' />
+  {/* <SiGmail className='border border-gray-400 w-8 h-6 lg:w-12 lg:h-10 rounded  shadow-md shadow-orange-400 hover:bg-gradient-to-r from-orange-400 to-pink-600' /> */}
   </a>
   </div>
     </div>

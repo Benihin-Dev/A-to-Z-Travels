@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { FaLinkedinIn, FaGithub, FaWhatsapp } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
+// import { SiGmail } from "react-icons/si";
 
 const email = 'Kepirasath@gmail.com';
 const phoneNumber = '+94779549474';
@@ -57,7 +57,7 @@ const Contact = () => {
               </a>
               <a href={`mailto:${email}`}>
                 <div className="flex items-center pb-4 md:font-bold md:text-lg">
-                  <SiGmail className='border border-gray-400 w-8 h-6 rounded shadow-md shadow-orange-400 hover:bg-gradient-to-r from-orange-400 to-pink-600' />
+                  {/* <SiGmail className='border border-gray-400 w-8 h-6 rounded shadow-md shadow-orange-400 hover:bg-gradient-to-r from-orange-400 to-pink-600' /> */}
                   <p className="ml-2 hover:text-orange-400 font-bold">{email}</p>
                 </div>
               </a>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 
 import { FaWhatsapp } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
+// import { SiGmail } from "react-icons/si";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6"; 
 import { FaLocationDot } from "react-icons/fa6";
@@ -71,7 +71,7 @@ const Home = () => {
                 <FaLocationDot className='border border-gray-400 w-8 h-6 md:w-12 md:h-10 md:pt-1 md:pb-1 rounded shadow-md shadow-orange-400 hover:bg-gradient-to-r from-orange-400 to-pink-600' />
               </a>
               <a href={`mailto:${email}`}>
-  <SiGmail className='border border-gray-400 w-8 h-6 md:w-12 md:h-10 md:pt-1 md:pb-1 rounded shadow-md shadow-orange-400 hover:bg-gradient-to-r from-orange-400 to-pink-600' />
+  {/* <SiGmail className='border border-gray-400 w-8 h-6 md:w-12 md:h-10 md:pt-1 md:pb-1 rounded shadow-md shadow-orange-400 hover:bg-gradient-to-r from-orange-400 to-pink-600' /> */}
   </a>
             </div>
           </div>
