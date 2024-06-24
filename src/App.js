@@ -4,13 +4,9 @@ import HomePage from "./components/HomePage.js";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Routes>
-          <Route to="/" element={<HomePage />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className=" ">
+      <HomePage />
+    </div>
   );
 }
 

@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Nirupan-14.github.io",
   "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
@@ -47,7 +46,11 @@
     "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.3"
   },
-    "presets": ["@babel/preset-env", "@babel/preset-react"],
-    "plugins": ["@babel/plugin-proposal-private-property-in-object"]
-  
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-private-property-in-object"
+  ]
 }
